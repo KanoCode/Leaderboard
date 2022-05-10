@@ -1,2 +1,2 @@
-# webpack-boiler-plate
+# Leaderboard
 - a good starting point for my future projects
