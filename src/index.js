@@ -40,8 +40,5 @@ myForm.addEventListener('submit', async (e) => {
 
     await addScore(data);
     myForm.reset();
-    loadUsers(
-      'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/k4qmG5KqGi0HoiSPKSW5/scores',
-    );
   }
 });
