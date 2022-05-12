@@ -24,20 +24,13 @@ section {
   margin: auto;
 }
 
-ul {
-  list-style: none;
-  margin: auto;
-  width: 90%;
-  border: solid;
-}
+
 
 nav {
   background-color: black;
 }
 
-li:nth-child(even) {
-  background-color: #e7e9eb;
-}
+
 
 .update-board {
   display: flex;
@@ -58,4 +51,20 @@ li:nth-child(even) {
 
 .update-board button {
   align-self: flex-start;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }

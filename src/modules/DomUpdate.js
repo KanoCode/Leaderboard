@@ -1,12 +1,14 @@
 const board = document.getElementById('board');
 
 const updateDom = (dataArr) => {
-  board.innerHTML = '';
   dataArr.forEach((element) => {
-    const li = document.createElement('li');
-
-    li.textContent = ` ${element.user} : ${element.score}`;
-    board.append(li);
+    const tableRow = document.createElement('tr');
+    const Name = document.createElement('td');
+    Name.textContent = element.user;
+    const Score = document.createElement('td');
+    Score.textContent = element.score;
+    tableRow.append(Name,Score)
+    board.append(tableRow);
   });
 };
 
