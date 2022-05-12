@@ -7,7 +7,7 @@ const updateDom = (dataArr) => {
     Name.textContent = element.user;
     const Score = document.createElement('td');
     Score.textContent = element.score;
-    tableRow.append(Name,Score)
+    tableRow.append(Name, Score);
     board.append(tableRow);
   });
 };
