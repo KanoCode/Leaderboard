@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<script defer src="main.js"></script></head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+  <script defer src="main.js"></script></head>
+  <body>
+    <nav>dkahoh</nav>
+    <h1>Leaderboard</h1>
+    <section>
+      <div class="dashboard">
+        <div class="section-info">
+          <h2>Recent scores</h2>
+          <button id="refresh">Refresh</button>
+        </div>
+
+        <table class=" ">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody id="board"></tbody>
+        </table>
+      </div>
+
+      <form class="update-board">
+        <h2>Add your score</h2>
+        <input id="name" type="text" placeholder="Your name" />
+        <input id="score" type="number" placeholder="Your score" />
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </section>
+    <footer>hello world</footer>
+  </body>
 </html>
